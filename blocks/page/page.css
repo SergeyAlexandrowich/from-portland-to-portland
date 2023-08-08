@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap%27');
+.page{
+  background-color: #2A2C2F;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
