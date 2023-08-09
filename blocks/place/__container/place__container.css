@@ -1,0 +1,12 @@
+.place__container{
+  width: calc(100% -16px);
+  min-width: 288px;
+}
+
+@media (min-width: 768px){
+  .place-container{
+    width: 100%
+  }
+}
+
+
