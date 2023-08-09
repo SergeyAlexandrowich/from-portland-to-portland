@@ -8,4 +8,11 @@
   align-items: center;
   font-family: 'Inter', sans-serif;
   color: white;
+  padding: 20px 0px 24px;
+}
+
+@media (min-width:768px) {
+  .page{
+  padding: 34px 0px 24px;
+}
 }

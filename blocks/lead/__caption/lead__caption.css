@@ -1,0 +1,30 @@
+.lead__caption{
+  margin: 0;
+  padding: 0;
+  width: calc(100% - 32px);
+  min-width: 288px;
+  text-align: left;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px){
+  .lead__caption{
+    width:calc(100% - 48px);
+  }
+}
+
+@media (min-width: 1024px){
+  .lead__caption{
+    width:calc(100% - 96px);
+  }
+}
+
+@media (min-width: 1280px){
+  .lead__caption{
+    width:calc(100% - 296px);
+  }
+}
