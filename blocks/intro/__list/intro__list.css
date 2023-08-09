@@ -1,0 +1,17 @@
+.intro__list{
+  margin: 0;
+  padding: 0;
+  min-width: 288px;
+  line-height: 18px;
+  font-weight:400px;
+  width: 100%;
+  margin-top: 34px;
+  list-style-type: none;
+  font-size: 12px;
+}
+
+@media (min-width: 768px){
+  .header__link{
+   margin-top: 33px;
+  }
+}

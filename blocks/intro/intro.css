@@ -1,0 +1,28 @@
+.intro{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 64px;
+  width: calc(100% - 32px);
+}
+
+@media (min-width: 768px){
+  .intro{
+    margin-top: 88px;
+    width: calc(100% - 48px);
+   }
+}
+
+@media (min-width: 1024px){
+  .intro{
+    margin-top: 92px;
+    width: calc(100% - 96px);
+   }
+}
+
+
+@media (min-width: 1280px){
+  .intro{
+    width: calc(100% - 296px);
+   }
+}
