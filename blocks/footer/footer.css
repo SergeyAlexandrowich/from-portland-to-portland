@@ -1,0 +1,22 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  min-width: 165px;
+  width: calc(100% - 32px);
+}
+
+@media (min-width: 768px){
+  .footer{
+  flex-direction: row;
+  width: calc(100% - 48px);
+  justify-content: space-between;
+  align-items: center;
+}
+}
+
+@media (min-width: 1024px){
+  .footer{
+  width: calc(100% - 96px);
+  max-width: 1184px;
+}
+}
