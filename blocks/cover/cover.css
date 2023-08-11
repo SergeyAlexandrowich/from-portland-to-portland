@@ -26,6 +26,7 @@
   .cover{
     min-height: 480px;
     max-height: 640px;
+    margin: 89px 0 88px;
   }
 }
 
@@ -34,6 +35,7 @@
     min-height: 640px;
     max-height: 740px;
     max-width: 1184px;
+    margin: 92px 0;
   }
 }
 
