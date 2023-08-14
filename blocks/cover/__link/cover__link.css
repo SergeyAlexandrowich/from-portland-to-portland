@@ -1,5 +1,5 @@
 .cover__link{
-  background: rgba(42, 44, 47, .5);
+  background: rgba(42, 44, 47, .3);
   text-decoration: none;
   width: 100%;
   height: 100%;
@@ -10,6 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: 1s ease;
 }
 
 .cover__link:hover{
