@@ -6,34 +6,20 @@
   align-items: center;
   justify-content: center;
   background-image:  url('../../images/cover.png');
-  filter: brightness(70%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 200px;
-  max-height: 380px;
   margin: 64px 0;
-}
-
-@media (min-width: 434px){
-  .cover{
-    min-height: 380px;
-    max-height: 480px;
-  }
 }
 
 @media (min-width: 768px){
   .cover{
-    min-height: 480px;
-    max-height: 640px;
     margin: 89px 0 88px;
   }
 }
 
 @media (min-width: 1024px){
   .cover{
-    min-height: 640px;
-    max-height: 740px;
     max-width: 1184px;
     margin: 92px 0;
   }
