@@ -7,4 +7,9 @@
   min-width: 288px;
   width: calc(100% - 32px);
   color: white;
+  transition: opacity 1s ease;
+}
+
+.place__link:hover{
+  opacity: .8;
 }
